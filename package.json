@@ -1,0 +1,29 @@
+{
+  "name": "lit-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/lit.js",
+  "bin": {
+    "lit": "./bin/lit.js"
+  },
+  "scripts": {
+    "dev": "node bin/lit.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSixer/lit-cli.git"
+  },
+  "author": "L.J.Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheSixer/lit-cli/issues"
+  },
+  "homepage": "https://github.com/TheSixer/lit-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^6.0.1"
+  }
+}
