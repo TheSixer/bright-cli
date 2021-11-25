@@ -1,13 +1,13 @@
 {
-  "name": "lit-cli",
+  "name": "bright-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "bin/lit.js",
+  "main": "bin/index.js",
   "bin": {
-    "lit": "./bin/lit.js"
+    "bri": "./bin/index.js"
   },
   "scripts": {
-    "dev": "node bin/lit.js",
+    "dev": "node bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

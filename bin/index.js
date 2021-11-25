@@ -8,7 +8,7 @@ const ora = require('ora');
 
 async function run() {
   program
-  .version('0.1.0')
+  .version('1.0.0')
   .option('-i, init [name]', '初始化lit项目')
   .parse(process.argv);
 
