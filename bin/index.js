@@ -4,6 +4,7 @@ const program = require('commander');
 const download = require('download-git-repo');
 const chalk = require('chalk');
 // import packageVersion from './utils/packageVersion';
+const init = require('../lib/init');
 
 async function run() {
   // program
