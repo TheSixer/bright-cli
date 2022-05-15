@@ -48,7 +48,7 @@ const init = (template, name) => {
     let { description } = answers;
     let projectName = answers.name || name;
     const url = tplObj.template[template];
-    console.log(url);
+
     // 出现加载图标
     const spinner = ora("Downloading...");
     spinner.start();

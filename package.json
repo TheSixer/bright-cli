@@ -1,6 +1,6 @@
 {
   "name": "bright-cli",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "",
   "main": "bin/index.js",
   "type": "module",
@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "node dist/bin/index.js",
+    "publish": "gulp && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
